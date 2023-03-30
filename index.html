@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kamaa Books</title>
+    <script src="kamaa.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <style>
+    section{
+        padding: 60px 0;
+    }
+   
+  </style>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md ms-3 me-3 bg-info-light">
+        <div class="container-lg">
+            <a href="#intro" class="navbar-brand">
+                <span class="fw-bold text-secondary">
+                    <i class="bi bi-book-half"></i>
+                    Kamaa Books
+                </span>
+            </a>
+            <!-- toggle button for mobile nav -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        </div>
+         <!-- navbar links -->
+    <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav mx-2">
+            <li class="nav-item">
+                <a href="#topics" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#reviews" class="nav-link">Reviews</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a href="#pricing" class="nav-link d-md-none">Pricing</a>
+            </li>
+            <li class="nav-item ms-2 d-none d-md-inline ">
+                <a href="#pricing" class="btn btn-secondary ">Purchase</a>
+            </li>
+        </ul>
+    </div>
+    </nav>
+   
+    <!-- main image and intro text -->
+
+    <section id="intro">
+        <div class="container-lg">
+           <div class="row justify-content-center  align-items-center">
+              <div class="col-md-5 txt-center text-md-start">
+                <h1>
+                    <div class="display-2">Black label</div>
+                    <div class="display-5 text-muted">Your coding skills</div>
+                </h1>
+                <p class="text-muted my-4">The main aim of e-books is to simplify and enhance overall learning expirience</p>
+                <a href="#pricing" class=" btn btn-secondary btn-lg">Buy Now</a>
+              </div>
+              <div class="col-md-5 text-center   d-md-block ">
+                <span class="tt" data-bs-placement="bottom" tittle="Kamaa eBook Cover"> 
+                      <img src="e.png" alt="eBook"  class="img-fluid"></span>
+               
+             </div>
+           </div>   
+        </div>
+    </section>
+
+
+    <!-- pricing plans -->
+
+     <section id="pricing" class="bg-light mt-5">
+        <div class="text-center">
+              <h1>Pricing Plans</h1>
+             <p class="lead text-muted">Choose a pricing plan to suite you</p>
+        </div>
+        <div class="row my-5 align-items-center justify-content-center g-0">
+            <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card border-0">
+                    <div class="card-body text-center py-3">
+                        <h4 class="card-tittle">Starter Edition</h4>
+                         <p class="lead subtittle">eBook download only</p>
+                         <p class="display-5 fw-bold text-primary">$12.99</p>
+                         <p class="card-text muted d-none d-lg-block">book publication made available in digital form, consisting of text, images, or both, readable on the flat-panel display of computers or other electronic devices.</p>
+                        <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9 col-lg-4">
+                <div class="card border-primary border-2">
+                    <card class="header primary text-center">Most Popular</card>
+                    <div class="card-body text-center py-5">
+                        <h4 class="card-tittle">Starter Edition</h4>
+                         <p class="lead subtittle">eBook download and all updates</p>
+                         <p class="display-5 fw-bold text-primary">$122.99</p>
+                         <p class="card-text muted d-none d-lg-block">book publication made available in digital form, consisting of text, images, or both, readable on the flat-panel display of computers or other electronic devices.</p>
+                        <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card border-0">
+                    <div class="card-body text-center py-3">
+                        <h4 class="card-tittle">Starter Edition</h4>
+                         <p class="lead subtittle">eBook download only</p>
+                         <p class="display-5 fw-bold text-primary">$12.99</p>
+                         <p class="card-text muted d-none d-lg-block">book publication made available in digital form, consisting of text, images, or both, readable on the flat-panel display of computers or other electronic devices.</p>
+                        <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                    </div>
+                </div>
+        </div>
+       
+
+     </section>
+    <!-- Topics at glance -->
+    <section id="topics">
+        <div class="container-md">
+            <div class="text-center">
+                <h2>Inside The Book</h2>
+                <p class="lead text-muted">A quick glance at the topics you'll learn</p>
+            </div>
+            <div class="row my-5 g-5 justify-content-around align-items-center">
+                <div class="col-6 col-lg-4">
+                    <img src="books.jpg" alt="ebook" class="img-fluid">
+                </div>
+                <!-- accordion -->
+                <div class="col-md-6">
+                <div class="accordion" id="chapters">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Chapter 1 -Your First Web Page
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#chapters">
+                        <div class="accordion-body">
+                          <strong>Introduction to web development</strong> <p>I Web developers often work for clients who are trying to get their product or service onto the web. The work is typically very project focused and involves collaborating with a team that helps to coordinate the client's needs into the end product.</p>
+                        </div>
+                      </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                                    Chapter 2 -Mastering CSS
+                                  </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="Two" data-bs-parent="#chapters">
+                                  <div class="accordion-body">
+                                    <p> first read the theory on what CSS is, how it works in the browser, and its basic syntax and usage. Learn about the different kinds of stylesheets available, their differences, selectors, and basic styling such as font-size , width , height etc. You can get started by going through the tutorials at MDN</p>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
+                                        Chapter 3 -Storing data (MYSQLI Database)
+                                      </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#chapters">
+                                      <div class="accordion-body">
+                                       <p> (MySQL Improved) is a relational database driver used in the PHP scripting language to provide an interface with MySQL databases. There are three main API options when considering connecting to a MySQL database server: PHP's MySQL Extension. PHP's MySQLi Extension.</p>
+                    </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Reviews List -->
+    <section id="reviews" class="bg-light">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2><i class="bi bi-stars"></i>  Book Reviews</h2>
+                <p>What Students/Developers have said about the book...</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="list-group">
+                        <div class="list-group-item py-3">
+                            <div class="pb-5">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-3">A Must buy for every aspring web developer</h5>
+                            <p>enthralling I learnt alot from the book.From begginer to a pro in web development</p>
+                            <small>Review by Kamaa</small>
+
+                        </div>
+                        <div class="list-group-item py-3">
+                            <div class="pb-5">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-3">A Must buy for every aspring web developer</h5>
+                            <p>enthralling I learnt alot from the book.From begginer to a pro in web development</p>
+                            <small>Review by Kamaa</small>
+
+                        </div>
+                        <div class="list-group-item py-3">
+                            <div class="pb-5">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-3">A Must buy for every aspring web developer</h5>
+                            <p>enthralling I learnt alot from the book.From begginer to a pro in web development</p>
+                            <small>Review by Kamaa</small>
+
+                        </div>
+                        <div class="list-group-item py-3">
+                            <div class="pb-5">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-3">A Must buy for every aspring web developer</h5>
+                            <p>enthralling I learnt alot from the book.From begginer to a pro in web development</p>
+                            <small>Review by Kamaa</small>
+
+                        </div>
+                        <div class="list-group-item py-3">
+                            <div class="pb-5">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h5 class="mb-3">A Must buy for every aspring web developer</h5>
+                            <p>enthralling I learnt alot from the book.From begginer to a pro in web development</p>
+                            <small>Review by Kamaa</small>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="contact">
+    <div class="container-lg ">
+        <div class="text-center">
+            <h1>Get in Touch</h1>
+            <p class="lead">Questions to ask? fill in the form to contact me directly</p>
+        </div>
+        <div class="row justify-content-center my-5">
+            <div class="col-lg-6">
+                <form>
+                    <label for="email" class="form-label" >Email:</label>
+                    <div class="input-group mb 4">
+                        <span class="input-group-text">
+                            <i class="bi bi-envelope-fill"></i>
+                        </span>
+                        <input type="email" class="form-control" id="email" placeholder="e.g njuguna.eliudkamau@gmail.com">
+                    </div>
+                    
+                    <label for="name" class="form-label" >Name:</label>
+                    <div class="input-group mb-4">
+                        <span class="input-group-text">
+                            <i class="bi bi-person-fill"></i>
+                        </span>
+                        <input type="email" class="form-control" id="name" placeholder="e.g. Kamaa">
+                    </div>
+                    
+                    <label for="subject"  class="form-label">What is your question about ?:</label>
+                    <div class="input-group mb-4">
+                        <span class="input-group-text">
+                            <i class="bi bi-chat-left-dots-fill"></i>
+                        </span>
+                        <select id="subjects" class="form-select">
+                            <option value="Pricing" selected>Pricing Quey</option>
+                            <option value="Content">Content Query</option>
+                            <option value="Other">Other Query</option>
+                        </select>
+                    </div>
+                  
+                    <div class="form-floating mb-5 mt-5">
+                        <textarea name="question" id="question" style="height: 140px;" class="form-control"></textarea>
+                        <label for="query" >Your Query...</label>
+                    </div>
+                    <div class="mb-4 text-center">
+                        <button class="btn btn-outline-info btn-lg" type="submit">Submit</button>
+                    </div>
+                    
+                    
+                    
+            </div>
+        </div>
+        </div>
+       
+    </section>
+
+    <section>
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Stay in the loop</h2>
+                <p class="lead">Get the latest updates as they happen...</p>
+                <div class="row justify-content-center">
+                    <div class="col-md-8 text-center">
+                        <p class="text-muted">All new Posted book,journal and articles on web developement and other subjects you will be notified of</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#update">
+                            Register for updates
+                          </button>
+                    </div>
+                </div>
+               
+            </div>
+            
+        </div>
+    </section>
+<!-- 
+    modal itself -->
+    <div class="modal fade" id="update" tabindex="-1" aria-labelledby="update" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="update">Get latest Updates</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                All new Posted book,journal and articles on web developement and other subjects you will be notified of via your email.
+                <label for="email" class="form-label" >Email:</label>
+                <div class="input-group mb 4">
+                    <span class="input-group-text">
+                        <i class="bi bi-envelope-fill"></i>
+                    </span>
+                    <input type="email" class="form-control" id="email" placeholder="e.g njuguna.eliudkamau@gmail.com">
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" ></script>
+  <script>
+    let tooltips=document.querySelectorAll('.tt')
+tooltips.forEach(t => {
+    new bootstrap.Tooltip(t)
+
+})
+  </script>
+
+})
+
+</body>
+</html>
